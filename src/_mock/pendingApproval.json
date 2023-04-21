@@ -1,0 +1,144 @@
+{
+  "content":[
+    {
+      "merchantId":1356321,
+      "storeName":{
+        "name":"Lotte",
+        "lang":{
+          "zh":{
+            "name":"Lotte",
+            "address":"local address"
+          },
+          "en":{
+            "name":"Lotte",
+            "address":"Terminal 2 Changi Airport"
+          }
+        }
+      },
+      "merchantStatus":"PENDINGAPPROVAL",
+      "created":"2023-04-21T16:47:46"
+    },
+    {
+      "merchantId":1234,
+      "storeName":{
+        "name":"Shilla",
+        "lang":{
+          "en":{
+            "name":"Shilla",
+            "address":"Terminal 2 Changi Airport"
+          },
+          "zh":{
+            "name":"Shilla",
+            "address":"local address"
+          }
+        }
+      },
+      "merchantStatus":"PENDINGMERCHANTSUBMISSION",
+      "created":"2023-03-23T23:59:59"
+    },
+    {
+      "merchantId":1235,
+      "storeName":{
+        "name":"CAG",
+        "lang":{
+          "en":{
+            "name":"CAG",
+            "address":"Terminal 2 Changi Airport"
+          },
+          "zh":{
+            "name":"CAG",
+            "address":"local address"
+          }
+        }
+      },
+      "merchantStatus":"PENDINGAPPROVAL",
+      "created":"2023-02-23T23:59:59"
+    },
+    {
+      "merchantId":1236,
+      "storeName":{
+        "name":"Airport",
+        "lang":{
+          "en":{
+            "name":"Airport",
+            "address":"Terminal 2 Changi Airport"
+          },
+          "zh":{
+            "name":"Airport",
+            "address":"local address"
+          }
+        }
+      },
+      "merchantStatus":"REVIEWINPROGRESS",
+      "created":"2023-03-23T23:59:59"
+    },
+    {
+      "merchantId":1234,
+      "storeName":{
+        "name":"DFS",
+        "lang":{
+          "en":{
+            "name":"DFS",
+            "address":"Terminal 2 Changi Airport"
+          },
+          "zh":{
+            "name":"DFS",
+            "address":"local address"
+          }
+        }
+      },
+      "merchantStatus":"REVIEWINPROGRESS",
+      "created":"2023-03-23T23:59:59"
+    },
+    {
+      "merchantId":1234,
+      "storeName":{
+        "name":"Test",
+        "lang":{
+          "en":{
+            "name":"Test",
+            "address":"Terminal 2 Changi Airport"
+          },
+          "zh":{
+            "name":"Test",
+            "address":"local address"
+          }
+        }
+      },
+      "merchantStatus":"REVIEWINPROGRESS",
+      "created":"2023-03-23T23:59:59"
+    },
+    {
+      "merchantId":1234,
+      "storeName":{
+        "name":"Channel",
+        "lang":{
+          "en":{
+            "name":"Channel",
+            "address":"Terminal 2 Changi Airport"
+          },
+          "zh":{
+            "name":"Channel",
+            "address":"local address"
+          }
+        }
+      },
+      "merchantStatus":"PENDINGMERCHANTSUBMISSION",
+      "created":"2023-04-23T23:59:59"
+    }
+  ],
+  "pageable":"INSTANCE",
+  "last":true,
+  "totalPages":1,
+  "totalElements":7,
+  "first":true,
+  "size":7,
+  "number":0,
+  "sort":{
+    "empty":true,
+    "unsorted":true,
+    "sorted":false
+  },
+  "numberOfElements":7,
+  "empty":false
+}
