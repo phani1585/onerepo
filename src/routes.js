@@ -1,7 +1,7 @@
 import { Navigate, useRoutes } from "react-router-dom";
 // layouts
 import DashboardLayout from "./layouts/dashboard";
-import PendingApproval from "./pages/PendingApproval";
+import PendingApproval from "./pages/pending-approval";
 
 // ----------------------------------------------------------------------
 

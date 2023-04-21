@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------------
-import Lato from "@fontsource/lato";
+import '@fontsource/lato';
 export function remToPx(value) {
   return Math.round(parseFloat(value) * 16);
 }
@@ -23,7 +23,12 @@ export function responsiveFontSizes({ sm, md, lg }) {
 }
 
 const typography = {
-  fontFamily: "Lato",
+  fontFamily: 'lato',
+  // fontFamily: [
+  //   'lato',
+  //   'Roboto',
+  //   'serif',
+  // ].join(','),
   fontWeightRegular: 400,
   fontWeightMedium: 600,
   fontWeightBold: 700,
@@ -91,8 +96,11 @@ const typography = {
     fontSize: pxToRem(12),
     textTransform: "uppercase",
   },
+  small: {
+    fontSize: "12px",
+  },
   button: {
-    fontWeight: 700,
+    fontWeight: 400,
     lineHeight: 24 / 14,
     fontSize: pxToRem(14),
     textTransform: "capitalize",

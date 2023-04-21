@@ -1,144 +1,338 @@
-{
-  "content":[
-    {
-      "merchantId":1356321,
-      "storeName":{
-        "name":"Lotte",
-        "lang":{
-          "zh":{
-            "name":"Lotte",
-            "address":"local address"
-          },
-          "en":{
-            "name":"Lotte",
-            "address":"Terminal 2 Changi Airport"
-          }
+[
+  {
+    "merchantId": 1356321,
+    "storeName": {
+      "name": "Lotte",
+      "lang": {
+        "zh": {
+          "name": "Lotte",
+          "address": "local address"
+        },
+        "en": {
+          "name": "Lotte",
+          "address": "Terminal 2 Changi Airport"
         }
-      },
-      "merchantStatus":"PENDINGAPPROVAL",
-      "created":"2023-04-21T16:47:46"
+      }
     },
-    {
-      "merchantId":1234,
-      "storeName":{
-        "name":"Shilla",
-        "lang":{
-          "en":{
-            "name":"Shilla",
-            "address":"Terminal 2 Changi Airport"
-          },
-          "zh":{
-            "name":"Shilla",
-            "address":"local address"
-          }
-        }
-      },
-      "merchantStatus":"PENDINGMERCHANTSUBMISSION",
-      "created":"2023-03-23T23:59:59"
-    },
-    {
-      "merchantId":1235,
-      "storeName":{
-        "name":"CAG",
-        "lang":{
-          "en":{
-            "name":"CAG",
-            "address":"Terminal 2 Changi Airport"
-          },
-          "zh":{
-            "name":"CAG",
-            "address":"local address"
-          }
-        }
-      },
-      "merchantStatus":"PENDINGAPPROVAL",
-      "created":"2023-02-23T23:59:59"
-    },
-    {
-      "merchantId":1236,
-      "storeName":{
-        "name":"Airport",
-        "lang":{
-          "en":{
-            "name":"Airport",
-            "address":"Terminal 2 Changi Airport"
-          },
-          "zh":{
-            "name":"Airport",
-            "address":"local address"
-          }
-        }
-      },
-      "merchantStatus":"REVIEWINPROGRESS",
-      "created":"2023-03-23T23:59:59"
-    },
-    {
-      "merchantId":1234,
-      "storeName":{
-        "name":"DFS",
-        "lang":{
-          "en":{
-            "name":"DFS",
-            "address":"Terminal 2 Changi Airport"
-          },
-          "zh":{
-            "name":"DFS",
-            "address":"local address"
-          }
-        }
-      },
-      "merchantStatus":"REVIEWINPROGRESS",
-      "created":"2023-03-23T23:59:59"
-    },
-    {
-      "merchantId":1234,
-      "storeName":{
-        "name":"Test",
-        "lang":{
-          "en":{
-            "name":"Test",
-            "address":"Terminal 2 Changi Airport"
-          },
-          "zh":{
-            "name":"Test",
-            "address":"local address"
-          }
-        }
-      },
-      "merchantStatus":"REVIEWINPROGRESS",
-      "created":"2023-03-23T23:59:59"
-    },
-    {
-      "merchantId":1234,
-      "storeName":{
-        "name":"Channel",
-        "lang":{
-          "en":{
-            "name":"Channel",
-            "address":"Terminal 2 Changi Airport"
-          },
-          "zh":{
-            "name":"Channel",
-            "address":"local address"
-          }
-        }
-      },
-      "merchantStatus":"PENDINGMERCHANTSUBMISSION",
-      "created":"2023-04-23T23:59:59"
-    }
-  ],
-  "pageable":"INSTANCE",
-  "last":true,
-  "totalPages":1,
-  "totalElements":7,
-  "first":true,
-  "size":7,
-  "number":0,
-  "sort":{
-    "empty":true,
-    "unsorted":true,
-    "sorted":false
+    "logo": "Lotte",
+    "companyName": "Lotte Pte Ltd",
+    "companyAddress": "101 Aria Street. Singapore 602580",
+    "businessRegistrationNumber": "UEN number",
+    "category": "BEAUTY",
+    "accountManager": "Geraldine Ho",
+    "gstAbsorptionNonTraveller": false,
+    "gstAbsorptionTraveller": false,
+    "dutyFreeTenant": false,
+    "jewelTenant": false,
+    "shippingFeeToCAG": true,
+    "merchantType": "BEAUTY",
+    "suspendedAccount": false,
+    "merchantClassification": null,
+    "applicationReferenceNumber": "01234567890",
+    "bankCode": "7171",
+    "branchCode": "081",
+    "accountName": "Lotte LTEDA",
+    "accountNumber": "03272373173",
+    "bankName": "POSB",
+    "swiftCode": "0327",
+    "gstRegisteredEntity": true,
+    "gstNumber": "111222333444",
+    "payment2c2pSubMID": "138210-2393mdhd",
+    "liqidMID": "138210-2393mdhd",
+    "renatalDeptCode": "138210-2393mdhd",
+    "financeStatus": "PENDING",
+    "tenantAgreementReference": "01234567890",
+    "tenancyStartDate": "20230519",
+    "tenancyEndDate": "20240518",
+    "concessionaireCode": "0123457890",
+    "tenantLMSId": null,
+    "dcaFile": null,
+    "ddaFile": null,
+    "dcaFileStatus": null,
+    "ddaFileStatus": null,
+    "leaseInfoStatus": "APPROVED",
+    "fulfilmentArrival": true,
+    "fulfilmentLandside": true,
+    "fulfilmentDeparture": true,
+    "fulfilmentTravellerHomeDel": false,
+    "fulfilmentNTHomeDel": false,
+    "address1": null,
+    "departureOrderLeadTime": 7,
+    "shipmentTypeAirport": "DROPSHIP",
+    "arrival": false,
+    "departure": false,
+    "landside": false,
+    "shipmentTypeSgDel": "CAGCONSOLIDATED",
+    "dropshipType": "MERCHANT3PL",
+    "deliverySLA": 7,
+    "deliveryMode": null,
+    "deliveryMessage": null,
+    "minSpendForFreeDelivery": 50,
+    "deliveryFee": 50,
+    "pickupSlotStartTime": "09:00:00",
+    "pickupSlotEndTime": "21:00:00",
+    "startDay": "MONDAY",
+    "startTime": "22:00:00",
+    "endDay": "SUNDAY",
+    "endTime": "09:00:00",
+    "orderLeadTime": 7,
+    "publicHolidaysApplicable": false,
+    "merchantStatus": "PENDING",
+    "created": "20230323",
+    "lastUpdated": "20230323",
+    "nonOperatingConfigured": true,
+    "businessInfoStatus": "PENDING"
   },
-  "numberOfElements":7,
-  "empty":false
-}
+  {
+    "merchantId": 1356322,
+    "storeName": {
+      "name": "Nike",
+      "lang": {
+        "zh": {
+          "name": "Lotte",
+          "address": "local address"
+        },
+        "en": {
+          "name": "Lotte",
+          "address": "Terminal 2 Changi Airport"
+        }
+      }
+    },
+    "logo": "Lotte",
+    "companyName": "Lotte Pte Ltd",
+    "companyAddress": "101 Aria Street. Singapore 602580",
+    "businessRegistrationNumber": "UEN number",
+    "category": "BEAUTY",
+    "accountManager": "Geraldine Ho",
+    "gstAbsorptionNonTraveller": false,
+    "gstAbsorptionTraveller": false,
+    "dutyFreeTenant": false,
+    "jewelTenant": false,
+    "shippingFeeToCAG": true,
+    "merchantType": "BEAUTY",
+    "suspendedAccount": false,
+    "merchantClassification": null,
+    "applicationReferenceNumber": "01234567890",
+    "bankCode": "7171",
+    "branchCode": "081",
+    "accountName": "Lotte LTEDA",
+    "accountNumber": "03272373173",
+    "bankName": "POSB",
+    "swiftCode": "0327",
+    "gstRegisteredEntity": true,
+    "gstNumber": "111222333444",
+    "payment2c2pSubMID": "138210-2393mdhd",
+    "liqidMID": "138210-2393mdhd",
+    "renatalDeptCode": "138210-2393mdhd",
+    "financeStatus": "PENDING",
+    "tenantAgreementReference": "01234567890",
+    "tenancyStartDate": "20230519",
+    "tenancyEndDate": "20240518",
+    "concessionaireCode": "0123457890",
+    "tenantLMSId": null,
+    "dcaFile": null,
+    "ddaFile": null,
+    "dcaFileStatus": null,
+    "ddaFileStatus": null,
+    "leaseInfoStatus": "APPROVED",
+    "fulfilmentArrival": true,
+    "fulfilmentLandside": true,
+    "fulfilmentDeparture": true,
+    "fulfilmentTravellerHomeDel": false,
+    "fulfilmentNTHomeDel": false,
+    "address1": null,
+    "departureOrderLeadTime": 7,
+    "shipmentTypeAirport": "DROPSHIP",
+    "arrival": false,
+    "departure": false,
+    "landside": false,
+    "shipmentTypeSgDel": "CAGCONSOLIDATED",
+    "dropshipType": "MERCHANT3PL",
+    "deliverySLA": 7,
+    "deliveryMode": null,
+    "deliveryMessage": null,
+    "minSpendForFreeDelivery": 50,
+    "deliveryFee": 50,
+    "pickupSlotStartTime": "09:00:00",
+    "pickupSlotEndTime": "21:00:00",
+    "startDay": "MONDAY",
+    "startTime": "22:00:00",
+    "endDay": "SUNDAY",
+    "endTime": "09:00:00",
+    "orderLeadTime": 7,
+    "publicHolidaysApplicable": false,
+    "merchantStatus": "PENDING",
+    "created": "20230323",
+    "lastUpdated": "20230323",
+    "nonOperatingConfigured": true,
+    "businessInfoStatus": "PENDING"
+  },
+  {
+    "merchantId": 1356323,
+    "storeName": {
+      "name": "Apple",
+      "lang": {
+        "zh": {
+          "name": "Lotte",
+          "address": "local address"
+        },
+        "en": {
+          "name": "Lotte",
+          "address": "Terminal 2 Changi Airport"
+        }
+      }
+    },
+    "logo": "Lotte",
+    "companyName": "Lotte Pte Ltd",
+    "companyAddress": "101 Aria Street. Singapore 602580",
+    "businessRegistrationNumber": "UEN number",
+    "category": "BEAUTY",
+    "accountManager": "Geraldine Ho",
+    "gstAbsorptionNonTraveller": false,
+    "gstAbsorptionTraveller": false,
+    "dutyFreeTenant": false,
+    "jewelTenant": false,
+    "shippingFeeToCAG": true,
+    "merchantType": "BEAUTY",
+    "suspendedAccount": false,
+    "merchantClassification": null,
+    "applicationReferenceNumber": "01234567890",
+    "bankCode": "7171",
+    "branchCode": "081",
+    "accountName": "Lotte LTEDA",
+    "accountNumber": "03272373173",
+    "bankName": "POSB",
+    "swiftCode": "0327",
+    "gstRegisteredEntity": true,
+    "gstNumber": "111222333444",
+    "payment2c2pSubMID": "138210-2393mdhd",
+    "liqidMID": "138210-2393mdhd",
+    "renatalDeptCode": "138210-2393mdhd",
+    "financeStatus": "PENDING",
+    "tenantAgreementReference": "01234567890",
+    "tenancyStartDate": "20230519",
+    "tenancyEndDate": "20240518",
+    "concessionaireCode": "0123457890",
+    "tenantLMSId": null,
+    "dcaFile": null,
+    "ddaFile": null,
+    "dcaFileStatus": null,
+    "ddaFileStatus": null,
+    "leaseInfoStatus": "APPROVED",
+    "fulfilmentArrival": true,
+    "fulfilmentLandside": true,
+    "fulfilmentDeparture": true,
+    "fulfilmentTravellerHomeDel": false,
+    "fulfilmentNTHomeDel": false,
+    "address1": null,
+    "departureOrderLeadTime": 7,
+    "shipmentTypeAirport": "DROPSHIP",
+    "arrival": false,
+    "departure": false,
+    "landside": false,
+    "shipmentTypeSgDel": "CAGCONSOLIDATED",
+    "dropshipType": "MERCHANT3PL",
+    "deliverySLA": 7,
+    "deliveryMode": null,
+    "deliveryMessage": null,
+    "minSpendForFreeDelivery": 50,
+    "deliveryFee": 50,
+    "pickupSlotStartTime": "09:00:00",
+    "pickupSlotEndTime": "21:00:00",
+    "startDay": "MONDAY",
+    "startTime": "22:00:00",
+    "endDay": "SUNDAY",
+    "endTime": "09:00:00",
+    "orderLeadTime": 7,
+    "publicHolidaysApplicable": false,
+    "merchantStatus": "PENDING",
+    "created": "20230323",
+    "lastUpdated": "20230323",
+    "nonOperatingConfigured": true,
+    "businessInfoStatus": "PENDING"
+  },
+  {
+    "merchantId": 1356324,
+    "storeName": {
+      "name": "Samsung",
+      "lang": {
+        "zh": {
+          "name": "Lotte",
+          "address": "local address"
+        },
+        "en": {
+          "name": "Lotte",
+          "address": "Terminal 2 Changi Airport"
+        }
+      }
+    },
+    "logo": "Lotte",
+    "companyName": "Lotte Pte Ltd",
+    "companyAddress": "101 Aria Street. Singapore 602580",
+    "businessRegistrationNumber": "UEN number",
+    "category": "BEAUTY",
+    "accountManager": "Geraldine Ho",
+    "gstAbsorptionNonTraveller": false,
+    "gstAbsorptionTraveller": false,
+    "dutyFreeTenant": false,
+    "jewelTenant": false,
+    "shippingFeeToCAG": true,
+    "merchantType": "BEAUTY",
+    "suspendedAccount": false,
+    "merchantClassification": null,
+    "applicationReferenceNumber": "01234567890",
+    "bankCode": "7171",
+    "branchCode": "081",
+    "accountName": "Lotte LTEDA",
+    "accountNumber": "03272373173",
+    "bankName": "POSB",
+    "swiftCode": "0327",
+    "gstRegisteredEntity": true,
+    "gstNumber": "111222333444",
+    "payment2c2pSubMID": "138210-2393mdhd",
+    "liqidMID": "138210-2393mdhd",
+    "renatalDeptCode": "138210-2393mdhd",
+    "financeStatus": "PENDING",
+    "tenantAgreementReference": "01234567890",
+    "tenancyStartDate": "20230519",
+    "tenancyEndDate": "20240518",
+    "concessionaireCode": "0123457890",
+    "tenantLMSId": null,
+    "dcaFile": null,
+    "ddaFile": null,
+    "dcaFileStatus": null,
+    "ddaFileStatus": null,
+    "leaseInfoStatus": "APPROVED",
+    "fulfilmentArrival": true,
+    "fulfilmentLandside": true,
+    "fulfilmentDeparture": true,
+    "fulfilmentTravellerHomeDel": false,
+    "fulfilmentNTHomeDel": false,
+    "address1": null,
+    "departureOrderLeadTime": 7,
+    "shipmentTypeAirport": "DROPSHIP",
+    "arrival": false,
+    "departure": false,
+    "landside": false,
+    "shipmentTypeSgDel": "CAGCONSOLIDATED",
+    "dropshipType": "MERCHANT3PL",
+    "deliverySLA": 7,
+    "deliveryMode": null,
+    "deliveryMessage": null,
+    "minSpendForFreeDelivery": 50,
+    "deliveryFee": 50,
+    "pickupSlotStartTime": "09:00:00",
+    "pickupSlotEndTime": "21:00:00",
+    "startDay": "MONDAY",
+    "startTime": "22:00:00",
+    "endDay": "SUNDAY",
+    "endTime": "09:00:00",
+    "orderLeadTime": 7,
+    "publicHolidaysApplicable": false,
+    "merchantStatus": "PENDING",
+    "created": "20230323",
+    "lastUpdated": "20230323",
+    "nonOperatingConfigured": true,
+    "businessInfoStatus": "PENDING"
+  }
+]

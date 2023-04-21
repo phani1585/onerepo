@@ -46,10 +46,10 @@ const INFO = {
 const SUCCESS = {
   lighter: "#E9FCD4",
   light: "#AAF27F",
-  main: "#54D62C",
+  main: "#139a21", //*#54D62C",
   dark: "#229A16",
   darker: "#08660D",
-  contrastText: GREY[800],
+  contrastText: "#fff",
 };
 
 const WARNING = {
@@ -64,7 +64,7 @@ const WARNING = {
 const ERROR = {
   lighter: "#FFE7D9",
   light: "#FFA48D",
-  main: "#FF4842",
+  main: "#d32f2f",//*"#FF4842",
   dark: "#B72136",
   darker: "#7A0C2E",
   contrastText: "#fff",

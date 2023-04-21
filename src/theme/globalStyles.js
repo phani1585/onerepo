@@ -22,6 +22,7 @@ export default function GlobalStyles() {
           padding: 0,
           width: "100%",
           height: "100%",
+          //letterSpacing: "0.01rem"
         },
         "#root": {
           width: "100%",
